@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/jpeg_3">
+
+    <ImageView
+        android:id="@+id/signup_1"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/png_4"
+        android:layout_gravity="center"
+        android:layout_marginTop="120dp"/>
+    <EditText
+        android:id="@+id/user_name_1"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:hint="用户名"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/user_account_1"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="账号"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/user_key_2"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="密码"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/telnumber_1"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="手机号"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/button_6"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/png_3"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"/>
+
+</LinearLayout>
