@@ -13,6 +13,7 @@
     接口不知道怎么用
     不知道gsonformat的时候bean类写起来特别痛苦
     子线程里发起的网络请求在oncreate方法里得不到请求结果
+    textviwe的setext方法只能使用字符串（这个我真的卡了很长时间QAQ）
   未解决：
     使用fragment来实现viewpager的同时发起网络请求
     MVP架构
